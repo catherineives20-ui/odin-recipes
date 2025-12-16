@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    border-bottom: 2px solid rgb(240, 226, 203)
+}
+
+#headings {
+    font-family: 'Brush Script MT';
+    color: orange;
+    text-align: center;
+    font-size: 2em;
+}
+
+.biggest#headings {
+    font-size: 3em; 
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+a {
+    font-family:'Courier New', Courier, monospace;
+    color: orange;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+main {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+figure {
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+}
+img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
